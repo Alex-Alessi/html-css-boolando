@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* # UTILS */
 
 .container {
@@ -29,6 +33,50 @@
   flex: 1 0 30%;
 
   /* debug */
-  background-color: gray;
+  background-color: white;
   min-height: 480px;
+}
+
+.models .card {
+  position: relative;
+}
+
+.marca {
+  font-size: 12px;
+}
+
+.price {
+  font-size: 12px;
+  margin-top: 0.5px;
+}
+
+.class-price {
+  display: flex;
+  align-content: center;
+  gap: 0.2rem;
+}
+
+.card .heart-box {
+  position: absolute;
+  top: 7px;
+  right: 0px;
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.card .box-sconto {
+  position: absolute;
+  bottom: 80px;
+  left: 0px;
+  width: 45px;
+  height: 20px;
+  background-color: #d9000c;
+  color: white;
+  text-align: center;
+  line-height: 23px;
+  font-size: 12px;
 }
