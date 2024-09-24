@@ -61,6 +61,27 @@ body {
   display: none;
 }
 
+.card .hearts .heart-hover {
+  top: 7px;
+  right: 0px;
+  background-color: white;
+  display: none;
+  width: 30px;
+  height: 30px;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: red;
+}
+
+.card .hearts:hover .heart-hover {
+  display: block;
+}
+
+.card .hearts:hover .heart-box {
+  display: none;
+}
+
 .marca {
   font-size: 12px;
 }
