@@ -44,10 +44,21 @@ body {
   /* debug */
   background-color: white;
   min-height: 480px;
+  position: relative;
 }
 
-.models .card {
-  position: relative;
+.card .card-image .img-hover {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+.card:hover .card-image .img-hover {
+  display: block;
+}
+
+.card:hover .card-image .img-not-hover {
+  display: none;
 }
 
 .marca {
@@ -98,6 +109,19 @@ body {
   position: absolute;
   bottom: 80px;
   left: 49px;
+  width: 68px;
+  height: 20px;
+  background-color: green;
+  color: white;
+  text-align: center;
+  line-height: 22px;
+  font-size: 10px;
+}
+
+.card .box-sostenibilità1 {
+  position: absolute;
+  bottom: 80px;
+  left: 0px;
   width: 68px;
   height: 20px;
   background-color: green;
