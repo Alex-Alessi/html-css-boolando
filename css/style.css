@@ -80,3 +80,16 @@ img {
   line-height: 23px;
   font-size: 12px;
 }
+
+.card .box-sostenibilità {
+  position: absolute;
+  bottom: 80px;
+  left: 49px;
+  width: 68px;
+  height: 20px;
+  background-color: green;
+  color: white;
+  text-align: center;
+  line-height: 22px;
+  font-size: 10px;
+}
