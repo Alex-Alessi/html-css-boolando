@@ -101,10 +101,11 @@ body {
   gap: 0.2rem;
 }
 
-.card .heart-box {
+.card .hearts {
   position: absolute;
   top: 7px;
   right: 0px;
+  cursor: pointer;
   background-color: white;
   width: 30px;
   height: 30px;
